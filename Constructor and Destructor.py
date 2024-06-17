@@ -6,12 +6,12 @@ class car:
         Aself.no_air_bags=no_of_airbags
         Aself.mileage=mileage
         Aself.car_name=car_name
-    def __del__(self):
-        print("This is a Destructor!",self)
-        print("This is a Destructor!", id(self))
+    def __del__(Aself):
+        print("This is a Destructor!",Aself)
+        print("This is a Destructor!", id(Aself))
 
-    def __str__(self):
-        return self.car_name
+    def __str__(Aself):
+        return Aself.car_name
 
     def moveForward(Aself,speed):
         print("Car is moving with a speed",speed,"Km.")
