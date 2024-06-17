@@ -3,6 +3,12 @@
 #Binding of Variables and Methods
 
 #Getters and Setters
+
+#Access Modifier:
+#1. default -> Public
+#2. __ -> Private
+#3. _ -> Protected
+
 class Car:
     def __init__(self,car_name,no_of_wheels,no_of_airbags,mileage):
         self.car_name=car_name
@@ -13,7 +19,6 @@ class Car:
     #getter
     def get_no_of_wheels(self):
         return self.__no_of_wheels
-
 
     #setter
     def set_no_of_wheels(self,no_of_wheels):
