@@ -14,6 +14,7 @@ class Car:
     def get_no_of_wheels(self):
         return self.__no_of_wheels
 
+
     #setter
     def set_no_of_wheels(self,no_of_wheels):
         self.__no_of_wheels=no_of_wheels
