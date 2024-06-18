@@ -10,6 +10,7 @@
 #3. _ -> Protected
 
 class Car:
+    mileage=9
     def __init__(self,car_name,no_of_wheels,no_of_airbags,mileage):
         self.car_name=car_name
         self.__no_of_wheels=no_of_wheels
@@ -23,7 +24,6 @@ class Car:
     #setter
     def set_no_of_wheels(self,no_of_wheels):
         self.__no_of_wheels=no_of_wheels
-
 
 car1=Car("Maruthi",4,4,25.0)
 print(car1.get_no_of_wheels())
