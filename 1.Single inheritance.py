@@ -1,3 +1,4 @@
+# -> Single Inheritance:
 class Vehicle: # Parent Class
     no_of_wheels=4
     def moveForward(self):
@@ -10,6 +11,8 @@ car1=Car()
 print(car1.no_of_wheels)
 print(car1.no_of_airbags)
 car1.moveForward()
+
+
 
 
 
